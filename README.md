@@ -1,9 +1,9 @@
 # Josh's Claude Skills
 
-A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, motion, 3D, and marketing. Skills only: no MCP servers or component libraries. Each copied skill keeps its original license file.
+A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, motion, 3D, marketing, and backend. Skills only: no MCP servers or component libraries. Each copied skill keeps its original license file.
 
 ## Install
-- **Claude Code plugin:** `/plugin marketplace add ScalingOnline/claude-skills`, then `/plugin install <category>@josh-claude-skills` (categories: design-ui, brand-visuals, motion, threejs-3d, copy-conversion, ads-growth)
+- **Claude Code plugin:** `/plugin marketplace add ScalingOnline/claude-skills`, then `/plugin install <category>@josh-claude-skills` (categories: design-ui, brand-visuals, motion, threejs-3d, copy-conversion, ads-growth, backend)
 - **Manual:** `git clone https://github.com/ScalingOnline/claude-skills && cd claude-skills && ./install.sh` (symlinks into `~/.claude/skills`)
 - **Claude.ai:** zip a skill folder and upload it under Settings > Capabilities > Skills
 
@@ -18,30 +18,46 @@ A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, 
 | web-artifacts-builder | anthropics/skills | Multi-component React, Tailwind, and shadcn pages |
 
 ## Brand & visuals
-| brand | nextlevelbuilder | Brand voice, identity, and messaging frameworks |
+| Skill | Source | What it does |
 |---|---|---|
+| brand | nextlevelbuilder | Brand voice, identity, and messaging frameworks |
 | banner-design | nextlevelbuilder | Social, ad, and hero banners in many art directions |
 | algorithmic-art | anthropics/skills | Generative p5.js art and backgrounds |
 | image | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) | Marketing image generation and prompting |
 
 ## Motion & video
-| gsap-core / gsap-timeline / gsap-scrolltrigger / gsap-react | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) (MIT) | Official GSAP: tweens, timelines, scroll animations, React |
+| Skill | Source | What it does |
 |---|---|---|
+| gsap-core / gsap-timeline / gsap-scrolltrigger / gsap-react | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) (MIT) | Official GSAP: tweens, timelines, scroll animations, React |
+| gsap-plugins / gsap-utils / gsap-performance / gsap-frameworks | greensock/gsap-skills | Plugins (ScrollSmoother, SplitText, Flip, Draggable and more), utility functions, performance rules, Vue/Svelte setup |
 | hyperframes | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) (Apache-2.0) | HTML to rendered video |
 | video | coreyhaines31/marketingskills | Planning and producing marketing videos with AI or code |
 
 ## 3D (Three.js / R3F)
-| threejs-fundamentals / -react-three-fiber / -shaders / -animation | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) | Scenes, R3F + drei, GLSL shaders, animation |
+| Skill | Source | What it does |
 |---|---|---|
+| threejs-fundamentals / -react-three-fiber / -shaders / -animation | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) (MIT) | Scenes, R3F + drei, GLSL shaders, animation |
+| threejs-loaders / -asset-pipeline | CloudAI-X/threejs-skills | Loading glTF with Draco, meshopt and KTX2; shrinking GLB files with gltf-transform |
+| threejs-materials / -lighting / -textures | CloudAI-X/threejs-skills | PBR materials (sheen, clearcoat), lights and shadows, HDR environments, texture color spaces |
+| threejs-geometry / -interaction / -postprocessing / -performance | CloudAI-X/threejs-skills | Geometry and instancing, picking and controls, bloom and other effects, draw-call and memory budgets |
 
 ## Copy & conversion
-| copywriting / copy-editing / cro / marketing-psychology | coreyhaines31/marketingskills | Page copy, edits, conversion optimization, persuasion principles |
+| Skill | Source | What it does |
 |---|---|---|
+| copywriting / copy-editing / cro / marketing-psychology | coreyhaines31/marketingskills | Page copy, edits, conversion optimization, persuasion principles |
 
 ## Ads & growth
-| ad-creative / ads / emails / social / launch / seo-audit / ai-seo | coreyhaines31/marketingskills | Ad copy variants, paid campaigns, email flows, social, launches, SEO, AI-search visibility |
+| Skill | Source | What it does |
 |---|---|---|
+| ad-creative / ads / emails / social / launch / seo-audit / ai-seo | coreyhaines31/marketingskills | Ad copy variants, paid campaigns, email flows, social, launches, SEO, AI-search visibility |
+| schema | coreyhaines31/marketingskills | Structured data (JSON-LD) for search and AI engines |
+
+## Backend (Supabase)
+| Skill | Source | What it does |
+|---|---|---|
+| supabase / supabase-postgres-best-practices | [supabase/agent-skills](https://github.com/supabase/agent-skills) (MIT) | Official Supabase: Auth, RLS and the security checklist, CLI and migrations; Postgres indexing, schema, and connection rules |
 
 ## Linked only (not copied)
 - [remotion-dev/skills](https://github.com/remotion-dev/skills): React video skills. The repo has no license file, and Remotion itself needs a paid license for some companies. Install it directly with `npx skills add remotion-dev/skills`.
+- HyperFrames companions (`hyperframes-cli`, `hyperframes-registry`, `media-use` and the on-demand ones): `npx hyperframes init` installs and updates them itself, so they aren't copied here.
 - More to browse: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)

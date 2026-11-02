@@ -43,6 +43,10 @@
         "./skills/gsap-timeline",
         "./skills/gsap-scrolltrigger",
         "./skills/gsap-react",
+        "./skills/gsap-plugins",
+        "./skills/gsap-utils",
+        "./skills/gsap-performance",
+        "./skills/gsap-frameworks",
         "./skills/hyperframes",
         "./skills/video"
       ]
@@ -56,7 +60,16 @@
         "./skills/threejs-fundamentals",
         "./skills/threejs-react-three-fiber",
         "./skills/threejs-shaders",
-        "./skills/threejs-animation"
+        "./skills/threejs-animation",
+        "./skills/threejs-loaders",
+        "./skills/threejs-materials",
+        "./skills/threejs-lighting",
+        "./skills/threejs-textures",
+        "./skills/threejs-performance",
+        "./skills/threejs-interaction",
+        "./skills/threejs-geometry",
+        "./skills/threejs-postprocessing",
+        "./skills/threejs-asset-pipeline"
       ]
     },
     {
@@ -83,7 +96,18 @@
         "./skills/social",
         "./skills/launch",
         "./skills/seo-audit",
-        "./skills/ai-seo"
+        "./skills/ai-seo",
+        "./skills/schema"
+      ]
+    },
+    {
+      "name": "backend",
+      "source": "./",
+      "strict": false,
+      "description": "backend skills",
+      "skills": [
+        "./skills/supabase",
+        "./skills/supabase-postgres-best-practices"
       ]
     }
   ]
