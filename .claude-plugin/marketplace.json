@@ -1,0 +1,90 @@
+{
+  "name": "josh-claude-skills",
+  "owner": {
+    "name": "ScalingOnline"
+  },
+  "metadata": {
+    "description": "Curated design, motion, 3D and marketing skills"
+  },
+  "plugins": [
+    {
+      "name": "design-ui",
+      "source": "./",
+      "strict": false,
+      "description": "design-ui skills",
+      "skills": [
+        "./skills/frontend-design",
+        "./skills/impeccable",
+        "./skills/ui-ux-pro-max",
+        "./skills/theme-factory",
+        "./skills/canvas-design",
+        "./skills/web-artifacts-builder"
+      ]
+    },
+    {
+      "name": "brand-visuals",
+      "source": "./",
+      "strict": false,
+      "description": "brand-visuals skills",
+      "skills": [
+        "./skills/brand",
+        "./skills/banner-design",
+        "./skills/algorithmic-art",
+        "./skills/image"
+      ]
+    },
+    {
+      "name": "motion",
+      "source": "./",
+      "strict": false,
+      "description": "motion skills",
+      "skills": [
+        "./skills/gsap-core",
+        "./skills/gsap-timeline",
+        "./skills/gsap-scrolltrigger",
+        "./skills/gsap-react",
+        "./skills/hyperframes",
+        "./skills/video"
+      ]
+    },
+    {
+      "name": "threejs-3d",
+      "source": "./",
+      "strict": false,
+      "description": "threejs-3d skills",
+      "skills": [
+        "./skills/threejs-fundamentals",
+        "./skills/threejs-react-three-fiber",
+        "./skills/threejs-shaders",
+        "./skills/threejs-animation"
+      ]
+    },
+    {
+      "name": "copy-conversion",
+      "source": "./",
+      "strict": false,
+      "description": "copy-conversion skills",
+      "skills": [
+        "./skills/copywriting",
+        "./skills/copy-editing",
+        "./skills/cro",
+        "./skills/marketing-psychology"
+      ]
+    },
+    {
+      "name": "ads-growth",
+      "source": "./",
+      "strict": false,
+      "description": "ads-growth skills",
+      "skills": [
+        "./skills/ad-creative",
+        "./skills/ads",
+        "./skills/emails",
+        "./skills/social",
+        "./skills/launch",
+        "./skills/seo-audit",
+        "./skills/ai-seo"
+      ]
+    }
+  ]
+}
