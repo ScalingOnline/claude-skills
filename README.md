@@ -3,7 +3,7 @@
 A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, motion, 3D, marketing, and backend. Skills only: no MCP servers or component libraries. Each copied skill keeps its original license file.
 
 ## Install
-- **Claude Code plugin:** `/plugin marketplace add ScalingOnline/claude-skills`, then `/plugin install <category>@josh-claude-skills` (categories: design-ui, brand-visuals, motion, threejs-3d, copy-conversion, ads-growth, backend)
+- **Claude Code plugin:** `/plugin marketplace add ScalingOnline/claude-skills`, then `/plugin install <category>@josh-claude-skills` (categories: design-ui, brand-visuals, motion, threejs-3d, copy-conversion, ads-growth, seo-discovery, measurement, strategy-sales, backend)
 - **Manual:** `git clone https://github.com/ScalingOnline/claude-skills && cd claude-skills && ./install.sh` (symlinks into `~/.claude/skills`)
 - **Claude.ai:** zip a skill folder and upload it under Settings > Capabilities > Skills
 
@@ -45,12 +45,39 @@ A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, 
 | Skill | Source | What it does |
 |---|---|---|
 | copywriting / copy-editing / cro / marketing-psychology | coreyhaines31/marketingskills | Page copy, edits, conversion optimization, persuasion principles |
+| signup / onboarding / popups / paywalls | coreyhaines31/marketingskills | Registration flows, first-run activation, modals and slide-ins, upgrade screens |
+| offers / lead-magnets | coreyhaines31/marketingskills | Building the offer itself; lead magnets for email capture |
 
 ## Ads & growth
 | Skill | Source | What it does |
 |---|---|---|
 | ad-creative / ads / emails / social / launch / seo-audit / ai-seo | coreyhaines31/marketingskills | Ad copy variants, paid campaigns, email flows, social, launches, SEO, AI-search visibility |
 | schema | coreyhaines31/marketingskills | Structured data (JSON-LD) for search and AI engines |
+| cold-email / sms | coreyhaines31/marketingskills | B2B cold outbound and follow-ups; SMS, MMS and WhatsApp flows |
+| events / influencer-marketing / community-marketing / public-relations | coreyhaines31/marketingskills | Webinars and conferences, creator partnerships, communities, press coverage |
+| co-marketing / referrals / free-tools | coreyhaines31/marketingskills | Partner campaigns, referral and affiliate programs, free tools and calculators as lead gen |
+| churn-prevention | coreyhaines31/marketingskills | Cancel flows, save offers, failed-payment recovery |
+
+## SEO & discovery
+| Skill | Source | What it does |
+|---|---|---|
+| link-building / programmatic-seo / site-architecture | coreyhaines31/marketingskills | Earned links and mentions, template pages at scale, page hierarchy and URL structure |
+| competitors / aso / directory-submissions | coreyhaines31/marketingskills | Comparison and alternative pages, App Store and Google Play listings, startup and review directories |
+
+## Measurement & testing
+| Skill | Source | What it does |
+|---|---|---|
+| analytics / conversion-tracking | coreyhaines31/marketingskills | Event tracking setup; pixels and conversion tags, with ready-made snippets for common form and booking tools |
+| attribution / ab-testing | coreyhaines31/marketingskills | Which channels actually drive revenue; experiment design |
+
+## Strategy & sales
+| Skill | Source | What it does |
+|---|---|---|
+| product-marketing | coreyhaines31/marketingskills | The product context file the other marketing skills read first: run it once per product |
+| marketing-plan / marketing-ideas / marketing-council / marketing-loops | coreyhaines31/marketingskills | Full plans, idea lists, a simulated advisory board, recurring agent-run workflows |
+| pricing / content-strategy | coreyhaines31/marketingskills | Pricing and packaging; what content to make |
+| customer-research / competitor-profiling / reverse-engineer-marketing | coreyhaines31/marketingskills | Customer interviews and synthesis, competitor profiles from URLs, growth teardowns of other companies |
+| prospecting / revops / sales-enablement | coreyhaines31/marketingskills | Prospect lists, lead lifecycle and routing, sales decks and objection docs |
 
 ## Backend (Supabase)
 | Skill | Source | What it does |

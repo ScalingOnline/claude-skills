@@ -81,7 +81,13 @@
         "./skills/copywriting",
         "./skills/copy-editing",
         "./skills/cro",
-        "./skills/marketing-psychology"
+        "./skills/marketing-psychology",
+        "./skills/signup",
+        "./skills/onboarding",
+        "./skills/popups",
+        "./skills/paywalls",
+        "./skills/offers",
+        "./skills/lead-magnets"
       ]
     },
     {
@@ -97,7 +103,64 @@
         "./skills/launch",
         "./skills/seo-audit",
         "./skills/ai-seo",
-        "./skills/schema"
+        "./skills/schema",
+        "./skills/cold-email",
+        "./skills/sms",
+        "./skills/events",
+        "./skills/influencer-marketing",
+        "./skills/community-marketing",
+        "./skills/public-relations",
+        "./skills/co-marketing",
+        "./skills/referrals",
+        "./skills/free-tools",
+        "./skills/churn-prevention"
+      ]
+    },
+    {
+      "name": "seo-discovery",
+      "source": "./",
+      "strict": false,
+      "description": "seo-discovery skills",
+      "skills": [
+        "./skills/link-building",
+        "./skills/programmatic-seo",
+        "./skills/site-architecture",
+        "./skills/competitors",
+        "./skills/aso",
+        "./skills/directory-submissions"
+      ]
+    },
+    {
+      "name": "measurement",
+      "source": "./",
+      "strict": false,
+      "description": "measurement skills",
+      "skills": [
+        "./skills/analytics",
+        "./skills/conversion-tracking",
+        "./skills/attribution",
+        "./skills/ab-testing"
+      ]
+    },
+    {
+      "name": "strategy-sales",
+      "source": "./",
+      "strict": false,
+      "description": "strategy-sales skills",
+      "skills": [
+        "./skills/product-marketing",
+        "./skills/marketing-plan",
+        "./skills/marketing-ideas",
+        "./skills/marketing-council",
+        "./skills/marketing-loops",
+        "./skills/pricing",
+        "./skills/content-strategy",
+        "./skills/customer-research",
+        "./skills/competitor-profiling",
+        "./skills/reverse-engineer-marketing",
+        "./skills/prospecting",
+        "./skills/revops",
+        "./skills/sales-enablement"
       ]
     },
     {
