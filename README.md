@@ -12,6 +12,7 @@ A curated set of free Claude Agent Skills (folders with `SKILL.md`) for design, 
 |---|---|---|
 | frontend-design | [anthropics/skills](https://github.com/anthropics/skills) (Apache-2.0) | Bold, distinctive UI with real typography choices instead of generic AI-looking layouts |
 | impeccable | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (Apache-2.0) | Critiques, audits, and polishes interfaces |
+| unslop | [heydamir/unslop](https://github.com/heydamir/unslop) by Damir Sokolovsky (CC BY 4.0) | Turns vibecoded, AI-looking UI into a designed screen pass by pass, with an optional before/after story video |
 | ui-ux-pro-max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (MIT) | Searchable database of styles, palettes, font pairings, and landing-page patterns |
 | theme-factory | anthropics/skills | Ready-made color and font themes for any artifact |
 | canvas-design | anthropics/skills | Posters and static visuals in PNG/PDF, with a bundled font set |
